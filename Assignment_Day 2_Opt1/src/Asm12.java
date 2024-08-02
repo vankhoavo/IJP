@@ -1,5 +1,6 @@
 public class Asm12 {
     public static void main(String[] args) {
+        //Kiểu tường minh (Độ chính xác bị thay đổi)
         double a = 123456789.123456789;
         float b = (float) a;
         long c = (long) b;

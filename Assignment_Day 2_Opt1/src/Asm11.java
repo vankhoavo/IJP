@@ -1,5 +1,6 @@
 public class Asm11 {
     public static void main(String[] args) {
+        // Kiểu tường minh (Độ chính xác không bị thay đổi)
         double a = 127.0;
         float b = (float) a;
         long c = (long) b;

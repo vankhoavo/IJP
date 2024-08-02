@@ -1,5 +1,6 @@
 public class Asm10 {
     public static void main(String[] args) {
+        // Kiểu ngầm định (Độ chính xác không bị thay đổi)
         byte a = 127;
         short b = a;
         int c = b;
