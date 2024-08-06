@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class Asm2 {
     public static ArrayList<Integer> nhapchuoi() {
-        ArrayList<Integer> nhapchuoi = new ArrayList<>();
+        ArrayList<Integer> nhapchuoi123 = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số lượng phần tử cần nhập: ");
         int n = scanner.nextInt();
         for (int i = 0; i < n; i++) {
             System.out.println("Nhập các phần tử cần thêm " + (i + 1) + ": ");
             int songuyen = scanner.nextInt();
-            nhapchuoi.add(songuyen);
+            nhapchuoi123.add(songuyen);
         }
-        return nhapchuoi;
+        return nhapchuoi123;
     }
 
     public static void hienthi() {
